@@ -28,77 +28,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The agentic AI and workflow orchestration market is estimated to reach approximately $9B–$12B globally in 2026 (with multi-agent workflow orchestration specifically accounting for ~$3.5B), growing at a compound annual rate exceeding 40%. The sector exhibits a dual market dynamic: heavily concentrated at the foundational models and hyperscaler cloud infrastructure layer (dominated by hyperscalers like Microsoft, Alphabet, and Amazon who bundle agent runtimes into enterprise ecosystems), while remaining moderately to highly fragmented across vertical application layers where specialized agent platforms compete for domain-specific automation.
 
 ## SaaS/Hosted Platforms
 
-- **[Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio)**  
-
-  Low-code platform for building, testing, and deploying custom AI agents and copilots integrated with Microsoft 365, Power Platform, and enterprise data sources.
-
-
-
-- **[ServiceNow Now Assist](https://www.servicenow.com/products/now-assist.html)**  
-
-  Generative AI and agent capabilities embedded in the ServiceNow platform for IT, customer service, HR, and workflow automation.
-
-
-
-- **[Salesforce Agentforce](https://www.salesforce.com/agentforce/)**  
-
-  Salesforce’s agentic layer for building autonomous and assisted agents across sales, service, marketing, and commerce clouds.
-
-
-
-- **[Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/)**  
-
-  Fully managed service on Amazon Bedrock for creating agents that plan, call APIs/tools, and complete multi-step tasks using foundation models.
-
-
-
-- **[Google Vertex AI Agents](https://cloud.google.com/vertex-ai)**  
-
-  Agent building and orchestration capabilities within Vertex AI for enterprise generative AI applications on Google Cloud.
-
-
-
-- **[Moveworks](https://www.moveworks.com/)**  
-
-  Enterprise AI assistant platform focused on employee support, IT service management, and cross-system workflow automation.
-
-
-
-- **[Amelia](https://amelia.com/)**  
-
-  Conversational AI and intelligent automation platform for customer service and enterprise process automation.
-
-
-
-- **[Ada](https://www.ada.cx/)**  
-
-  Customer service AI agent platform specializing in automated support, brand-aligned conversations, and escalation handling.
-
-
-
-- **[Cognigy](https://www.cognigy.com/)**  
-
-  Enterprise conversational AI platform for building voice and chat agents with advanced dialogue management and integrations.
-
-
-
-- **[Kore.ai](https://kore.ai/)**  
-
-  AI agent and virtual assistant platform for enterprise customer experience and employee experience use cases.
-
-
+| Platform | Company Size (Market Cap / Valuation / Revenue) | Description | Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio)** | ~$3.1T Market Cap (~$245B Ann. Revenue) | Low-code platform for building, testing, and deploying custom AI agents integrated with Microsoft 365, Power Platform, and enterprise data. | $200.00/month (prepaid capacity pack including 25,000 Copilot Credits; or pay-as-you-go via Azure) | 30-day free trial (extendable by 30 days, capped at 10 requests/min and 200 requests/hour; included usage for licensed M365 Copilot users) |
+| **[Google Vertex AI Agents](https://cloud.google.com/vertex-ai)** | ~$2.1T Market Cap (~$350B Ann. Revenue) | Agent building and orchestration capabilities within Vertex AI for enterprise generative AI applications and search. | $0 platform fee; pay-per-use starting at $1.50 per 1,000 search queries plus foundation model token consumption (Gemini) | 10,000 free search queries/month; plus $300 new customer cloud credits valid for 90 days across Google Cloud & Vertex AI |
+| **[Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/)** | ~$1.9T Market Cap (~$600B Ann. Revenue) | Fully managed service on Amazon Bedrock for creating autonomous agents that plan, call APIs/tools, and execute multi-step workflows. | Pay-as-you-go based on underlying FM token consumption (e.g., Anthropic Claude, Amazon Nova) and vector store infrastructure | No perpetual free tier; $200 promotional credit available for eligible new AWS accounts valid for 90 days |
+| **[Salesforce Agentforce](https://www.salesforce.com/agentforce/)** | ~$280B Market Cap (~$38B Ann. Revenue) | Autonomous and assisted agentic orchestration layer embedded across Salesforce Sales, Service, Marketing, and Commerce clouds. | $2.00 per conversation, or $500 per 100,000 Flex Credits (~$0.10 per standard action) | Free allocation of 100,000–200,000 Flex Credits via Salesforce Foundations for Enterprise+ Edition customers; free unlimited Trailhead Developer Playgrounds |
+| **[ServiceNow Now Assist](https://www.servicenow.com/products/now-assist.html)** | ~$180B Market Cap (~$11B Ann. Revenue) | Generative AI and agent orchestration embedded into the ServiceNow platform for IT, customer service, HR, and business workflows. | Enterprise quote-based uplift; typically adds 50%–60% uplift over standard licenses (~$100–$150+/user/month in Pro+ tiers with Assist bundles) | 30-day evaluation trial on sub-production instances via ServiceNow Store; promotional starter bundles (e.g., 150,000 Assists pool for POCs) |
+| **[Cognigy](https://www.cognigy.com/)** | ~$7.5B (Acquired by NICE, parent revenue ~$2.7B) | Enterprise conversational AI platform for voice and chat agents with advanced dialogue management and agent copilot integrations. | Annual custom contracts starting at ~$40,000–$45,000/year (~60,000 conversations/year baseline package on cloud marketplaces) | No public self-serve free trial; sales-led proof-of-concept trial environments with custom payload and profile quota limits |
+| **[Moveworks](https://www.moveworks.com/)** | ~$2.1B Valuation (~$100M+ ARR) | Enterprise AI assistant platform focused on employee support, IT service management, and cross-system workflow automation. | Annual headcount-based licensing starting at ~$90,000/year (typically $15–$45/employee/year for enterprise commitments; $150/employee/year on AWS marketplace) | No public free tier or free trial; evaluation is strictly via sales-led enterprise proof-of-concept demonstrations |
+| **[Ada](https://www.ada.cx/)** | ~$1.2B Valuation (~$50M+ ARR) | Customer service AI agent platform specializing in automated support, brand-aligned conversations, and resolution handling. | Platform base fee + performance model; entry-level deployments start at ~$30,000–$40,000/year (~$1.00–$3.50 per automated resolution) | No self-serve free trial; enterprise pilots and sandbox proofs-of-concept provided through sales evaluation |
+| **[Kore.ai](https://kore.ai/)** | ~$1.0B Valuation (~$60M+ ARR) | AI agent and virtual assistant platform for enterprise customer experience and employee experience automation. | Pay-as-you-go standard tier starting at $100 minimum prepaid purchase; full enterprise contracts start at ~$50,000/year | 14-day to 30-day free trial on select modules; $500 free credit allowance valid for 90 days; free developer tier capped at 5,000 requests/month (20 requests/minute) |
+| **[Amelia](https://amelia.com/)** | ~$800M Market Cap (Acquired by SoundHound AI, revenue ~$85M) | Conversational AI and intelligent automation platform for customer service, healthcare, and enterprise process automation. | Enterprise custom quote; standalone voice tiers start at $249–$499/month, while full Amelia enterprise deployments start at ~$50,000+/year | No self-serve free trial; guided enterprise proof-of-concept (PoC) evaluation environments available upon sales qualification |
 
 ## Open-Source GitHub Projects
 
